@@ -1,0 +1,163 @@
+.tradings{
+    font-family: 'DM Sans', sans-serif;
+}
+
+.trading-secion{
+    background: linear-gradient(to bottom, #E6E66A 100%, #FFFFDB 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 30px 0px;
+    margin-top: -3px;
+}
+
+.trade h4 {
+    font-size: 20px;
+    font-weight: 600;
+    /* line-height: 28px; */
+    color: #2D2D2D;
+    width: 57%;
+    text-align: left;
+}
+.trade button {
+    background-color: #2D2D2D;
+    color: #F6F6F6;
+    border: none;
+    border-radius: 14px;
+    font-size: 12px;
+    margin-bottom: 20px;
+    padding: 3px 10px;
+}
+.trade{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.next {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #83A720;
+    width: 75%;
+    margin: 0 auto;
+    height: 48px;
+    border-radius: 10px;
+    padding: 0px 20px;
+}
+.nexts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #83A720;
+    width: 50%;
+  
+    height: 48px;
+    border-radius: 10px;
+    padding: 0px 20px;
+}
+.toNext{
+    margin-bottom: 0rem;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+}
+.toNexts{
+    margin-bottom: 0rem;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+}
+.toNext-icon{
+    margin-bottom: 0rem;
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 500;
+}
+.toNext-icons{
+    margin-bottom: 0rem;
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 500;
+}
+.types{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.types h5{
+    font-weight: 600;
+    font-size: 16px;
+    color: #394C03;
+}
+.types p{
+    color: #677C2B;
+    font-size: 14px;
+    font-weight: 400;
+}
+.verification {
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 73%;
+}
+.verification p{
+    font-size: 14px;
+    font-weight: 500;
+}
+.manual{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.manual p{
+    font-weight: 600;
+    margin-bottom: 0px;
+    color: #394C03;
+}
+.manual button {
+    border: 1px solid #83A720;
+    color: #394C03;
+    background-color: transparent;
+    font-weight: 600;
+    padding: 6px 28px;
+    border-radius: 12px;
+}
+.complete {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.complete-set {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 114px;
+}
+.complete-set p{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.complete-btn {
+    background-color: #F5F8CC;
+    border: none;
+    padding: 11px 21px;
+    border-radius: 8px;
+    color: #83A720;
+    font-size: 17px;
+}
+.pan{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 25px;
+}
+.pan input{
+    width: 38%;
+}
+.pan h4 {
+    font-size: 14px;
+    font-weight: 500;
+}

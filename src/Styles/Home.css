@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+.home{
+  font-family: 'DM Sans', sans-serif;
+}
+
+@keyframes go-right {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(calc(100vw - 100%)); }
+  }
+  
+  .green {
+    overflow: hidden; /* Ensure the image is not visible when outside its container */
+  }
+  
+  .car-img {
+    animation: go-right 3s linear infinite;
+    position: relative;
+  }
+
+@media only screen and (max-width: 600px){
+   
+  }
+
+.container {
+  position: relative;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.background-img {
+  /* Style for the background image */
+}
+
+.car-img {
+  width: 196px;
+  position: absolute;
+  bottom: 62px;
+  left: 11px;
+  transition: transform 2s ease;
+}
+
+/* Example animation */
+.car-img.move {
+  transform: translateX(200px); /* Move the car 200px to the right */
+}
+.close span{
+  font-size: 40px;
+}
