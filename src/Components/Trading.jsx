@@ -16,19 +16,19 @@ const Trading = () => {
 
         <div className='types'>
 
-          <div>
+          <div className='catagory1'>
             <h5>None</h5>
             <p><MdKeyboardArrowLeft />1Y</p>
           </div>
-          <div>
+          <div className='catagory2'>
             <h5>Beginner</h5>
             <p>1Y-3Y</p>
           </div>
-          <div>
+          <div className='catagory3'>
             <h5>Mid</h5>
             <p>3Y-5Y</p>
           </div>
-          <div>
+          <div className='catagory4'>
             <h5>Pro</h5>
             <p><MdKeyboardArrowRight />5Y</p>
           </div>

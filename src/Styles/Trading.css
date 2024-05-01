@@ -84,6 +84,8 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    padding-bottom: 25px;
+    padding-top: 10px;
 }
 .types h5{
     font-weight: 600;
@@ -118,7 +120,7 @@
     color: #394C03;
 }
 .manual button {
-    border: 1px solid #83A720;
+    border: 2px solid #83A720;
     color: #394C03;
     background-color: transparent;
     font-weight: 600;
@@ -160,4 +162,19 @@
 .pan h4 {
     font-size: 14px;
     font-weight: 500;
+}
+.catagory2{
+    border: 2px solid #83A720;
+   
+    padding-top: 15px;
+    padding-left: 13px;
+    padding-right: 13px;
+    border-radius: 11px;
+}
+.catagory1,
+.catagory3,
+.catagory4{
+    padding-top: 15px;
+    padding-left: 13px;
+    padding-right: 13px;
 }
